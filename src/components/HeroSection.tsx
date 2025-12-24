@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import CountdownTimer from "@/components/CountdownTimer";
 
 const HeroSection = () => {
+  const weddingDate = new Date("2025-06-15T16:00:00");
+
   const scrollToRSVP = () => {
     const element = document.getElementById("rsvp");
     element?.scrollIntoView({ behavior: "smooth" });
@@ -31,14 +34,19 @@ const HeroSection = () => {
           June 15, 2025
         </p>
         
-        <p className="font-sans text-sm tracking-widest uppercase text-muted-foreground animate-fade-in-delay-2">
+        <p className="font-sans text-sm tracking-widest uppercase text-muted-foreground animate-fade-in-delay-2 mb-10">
           The Grand Estate, Napa Valley
         </p>
+
+        {/* Countdown Timer */}
+        <div className="animate-fade-in-delay-2 mb-10">
+          <CountdownTimer targetDate={weddingDate} />
+        </div>
         
         <Button
           variant="elegant"
           size="lg"
-          className="mt-12 animate-fade-in-delay-3"
+          className="animate-fade-in-delay-3"
           onClick={scrollToRSVP}
         >
           RSVP Now
