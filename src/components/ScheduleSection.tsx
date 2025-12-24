@@ -68,7 +68,7 @@ const ScheduleSection = () => {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-sage/30 transform md:-translate-x-1/2" />
+          <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-gold/50 via-champagne/50 to-gold/50 transform md:-translate-x-1/2" />
 
           {schedule.map((item, index) => (
             <div
@@ -79,11 +79,11 @@ const ScheduleSection = () => {
               style={{ transitionDelay: `${index * 150}ms` }}
             >
               {/* Timeline dot */}
-              <div className="absolute left-0 md:left-1/2 w-3 h-3 bg-sage rounded-full transform md:-translate-x-1/2 -translate-x-1" />
+              <div className="absolute left-0 md:left-1/2 w-3 h-3 bg-gradient-to-br from-gold to-champagne rounded-full transform md:-translate-x-1/2 -translate-x-1 shadow-sm" />
               
               {/* Time - left side on desktop */}
               <div className="md:w-1/2 md:pr-12 md:text-right pl-8 md:pl-0">
-                <span className="font-sans text-sm tracking-widest text-sage font-medium">
+                <span className="font-sans text-sm tracking-widest text-gold font-medium">
                   {item.time}
                 </span>
               </div>

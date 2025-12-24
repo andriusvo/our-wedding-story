@@ -3,9 +3,9 @@ const Footer = () => {
     <footer className="py-16 px-6 text-center">
       <div className="container mx-auto max-w-2xl">
         <div className="flex items-center justify-center gap-4 mb-8">
-          <span className="w-16 h-px bg-sage/30" />
-          <span className="font-serif text-3xl md:text-4xl font-light">E & J</span>
-          <span className="w-16 h-px bg-sage/30" />
+          <span className="w-16 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
+          <span className="font-serif text-3xl md:text-4xl font-light text-charcoal">E & J</span>
+          <span className="w-16 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
         </div>
         
         <p className="font-serif text-lg italic text-muted-foreground mb-8">

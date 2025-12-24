@@ -6,43 +6,48 @@
 
 @layer base {
   :root {
-    --background: 40 33% 98%;
-    --foreground: 30 10% 20%;
+    --background: 30 30% 97%;
+    --foreground: 20 20% 18%;
 
-    --card: 40 30% 96%;
-    --card-foreground: 30 10% 20%;
+    --card: 30 25% 94%;
+    --card-foreground: 20 20% 18%;
 
-    --popover: 40 33% 98%;
-    --popover-foreground: 30 10% 20%;
+    --popover: 30 30% 97%;
+    --popover-foreground: 20 20% 18%;
 
-    --primary: 145 25% 45%;
-    --primary-foreground: 40 33% 98%;
+    --primary: 30 35% 40%;
+    --primary-foreground: 30 30% 97%;
 
-    --secondary: 35 30% 92%;
-    --secondary-foreground: 30 10% 25%;
+    --secondary: 30 20% 90%;
+    --secondary-foreground: 20 20% 25%;
 
-    --muted: 35 20% 94%;
-    --muted-foreground: 30 10% 45%;
+    --muted: 30 15% 92%;
+    --muted-foreground: 20 10% 45%;
 
-    --accent: 145 20% 88%;
-    --accent-foreground: 145 25% 35%;
+    --accent: 30 25% 88%;
+    --accent-foreground: 30 35% 35%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 145 25% 45%;
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 30 35% 40%;
 
     --radius: 0.25rem;
 
     /* Custom wedding colors */
-    --cream: 40 33% 98%;
-    --ivory: 40 30% 96%;
-    --sage: 145 25% 45%;
-    --sage-light: 145 20% 88%;
-    --charcoal: 30 10% 20%;
-    --warm-gray: 30 10% 45%;
+    --cream: 35 40% 96%;
+    --ivory: 35 35% 93%;
+    --sage: 145 20% 50%;
+    --sage-light: 145 18% 90%;
+    --charcoal: 20 20% 18%;
+    --warm-gray: 20 10% 45%;
+    --champagne: 38 45% 85%;
+    --blush: 10 40% 90%;
+    --gold: 38 55% 55%;
+    --rose: 350 30% 75%;
+    --taupe: 30 15% 55%;
 
     /* Typography */
     --font-serif: 'Cormorant Garamond', serif;

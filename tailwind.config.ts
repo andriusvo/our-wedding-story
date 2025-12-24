@@ -29,6 +29,11 @@ export default {
         "sage-light": "hsl(var(--sage-light))",
         charcoal: "hsl(var(--charcoal))",
         "warm-gray": "hsl(var(--warm-gray))",
+        champagne: "hsl(var(--champagne))",
+        blush: "hsl(var(--blush))",
+        gold: "hsl(var(--gold))",
+        rose: "hsl(var(--rose))",
+        taupe: "hsl(var(--taupe))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

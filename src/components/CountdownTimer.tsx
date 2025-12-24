@@ -42,18 +42,18 @@ const CountdownTimer = ({ targetDate }: { targetDate: Date }) => {
       {timeUnits.map((unit, index) => (
         <div key={unit.label} className="text-center">
           <div className="relative">
-            <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center border border-sage/30 bg-background/50 backdrop-blur-sm">
-              <span className="font-serif text-2xl md:text-3xl font-light text-foreground">
+            <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center border border-gold/40 bg-background/60 backdrop-blur-sm rounded-sm">
+              <span className="font-serif text-2xl md:text-3xl font-light text-charcoal">
                 {String(unit.value).padStart(2, "0")}
               </span>
             </div>
             {index < timeUnits.length - 1 && (
-              <span className="absolute -right-2 md:-right-4 top-1/2 -translate-y-1/2 text-sage/50 font-light hidden md:block">
+              <span className="absolute -right-2 md:-right-4 top-1/2 -translate-y-1/2 text-gold/60 font-light hidden md:block">
                 :
               </span>
             )}
           </div>
-          <p className="font-sans text-[10px] md:text-xs tracking-widest uppercase text-muted-foreground mt-2">
+          <p className="font-sans text-[10px] md:text-xs tracking-widest uppercase text-taupe mt-2">
             {unit.label}
           </p>
         </div>
