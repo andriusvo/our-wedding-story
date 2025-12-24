@@ -44,13 +44,8 @@ const ScheduleSection = () => {
     },
     {
       time: "16:00",
-      event: "Muzika",
+      event: "Muzikinis workshopas",
       description: "Garsiau ir drąsiau",
-    },
-    {
-      time: "18:00",
-      event: "Kokteiliai",
-      description: "Plakam ir ragaujam",
     },
     {
       time: "20:00",

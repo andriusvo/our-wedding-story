@@ -32,7 +32,7 @@ const DetailsSection = () => {
     {
       icon: Clock,
       title: "Laikas",
-      info: "Ceremonijos pradžia 13 val.",
+      info: "Svečių laukiame nuo 12 val.",
     },
     {
       icon: MapPin,

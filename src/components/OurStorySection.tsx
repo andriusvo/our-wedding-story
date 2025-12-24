@@ -48,7 +48,7 @@ const OurStorySection = () => {
             </p>
             
             <h2 className="font-serif text-4xl md:text-5xl font-light mb-8 text-charcoal">
-              Susipažinom
+              Mūsų istorija
             </h2>
             
             <div className="w-16 h-px bg-gold/50 mb-8 mx-auto md:mx-0" />
@@ -59,7 +59,7 @@ const OurStorySection = () => {
             </p>
             
             <p className="font-serif text-lg md:text-xl leading-relaxed text-foreground/80">
-              Dabar kviečiame jus prisijungti prie mūsų ir kartu atšvęsti kitą mūsų kelionės etapą — apsupty žmonių,
+              Dabar kviečiame jus prisijungti prie mūsų ir kartu atšvęsti kitą mūsų kelionės etapą - apsupty žmonių,
               kurie formavo mūsų gyvenimus ir buvo liudininkai, kaip augo mūsų meilė.
             </p>
           </div>

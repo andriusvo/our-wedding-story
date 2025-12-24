@@ -12,16 +12,16 @@ const FAQSection = () => {
 
   const faqs = [
     {
+      question: "Formatas",
+      answer: "Mūsų vestuvių šventė tokia, kuri atspindi mus pačius: jaukios, energingos ir atviros bendravimui. Galėsite laisvai judėti, susipažinti su kitais svečiais ir mėgautis vakaru be sėdimų stalų ribų."
+    },
+    {
       question: "Dovanos",
-      answer: "Kadangi gėlės nuvysta, o prisiminimai (ir geras vynas) išlieka – vietoj gėlių mielai priimsime vyno butelį."
+      answer: "Kadangi gėlės nuvysta, o prisiminimai (ir geras vynas) išlieka - vietoj gėlių mielai priimsime vyno butelį."
     },
     {
       question: "Parkavimas",
       answer: "Rekomenduojame atvykti be automobilių, nes šventės vietoje nėra galimybės patogiai pasistatyti."
-    },
-    {
-      question: "Atvykimas",
-      answer: "Ceremonija prasidės lygiai 13:00. Rekomenduojame atvykti bent 15–20 minučių anksčiau, kad spėtumėte patogiai įsitaisyti."
     },
     {
       question: "Dalyvavimas",
