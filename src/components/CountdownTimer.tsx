@@ -31,10 +31,10 @@ const CountdownTimer = ({ targetDate }: { targetDate: Date }) => {
   }, [targetDate]);
 
   const timeUnits = [
-    { value: timeLeft.days, label: "Days" },
-    { value: timeLeft.hours, label: "Hours" },
-    { value: timeLeft.minutes, label: "Minutes" },
-    { value: timeLeft.seconds, label: "Seconds" },
+    { value: timeLeft.days, label: "Dienos" },
+    { value: timeLeft.hours, label: "Valandų" },
+    { value: timeLeft.minutes, label: "Minučių" },
+    { value: timeLeft.seconds, label: "Sekundžių" },
   ];
 
   return (

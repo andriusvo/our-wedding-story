@@ -4,20 +4,12 @@ const Footer = () => {
       <div className="container mx-auto max-w-2xl">
         <div className="flex items-center justify-center gap-4 mb-8">
           <span className="w-16 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
-          <span className="font-serif text-3xl md:text-4xl font-light text-charcoal">E & J</span>
+          <span className="font-serif text-3xl md:text-4xl font-light text-charcoal">A & I</span>
           <span className="w-16 h-px bg-gradient-to-r from-transparent via-gold/50 to-transparent" />
         </div>
-        
-        <p className="font-serif text-lg italic text-muted-foreground mb-8">
-          "Two souls, one heart"
-        </p>
-        
+
         <p className="font-sans text-xs tracking-widest uppercase text-muted-foreground">
-          June 15, 2025 · Napa Valley, California
-        </p>
-        
-        <p className="font-sans text-xs text-muted-foreground/60 mt-12">
-          Made with love for our special day
+          Rugpjūčio 7, 2026 · Bokšto skveras
         </p>
       </div>
     </footer>

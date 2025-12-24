@@ -44,24 +44,23 @@ const OurStorySection = () => {
           {/* Content */}
           <div className="text-center md:text-left order-1 md:order-2">
             <p className="font-sans text-xs tracking-[0.3em] uppercase text-taupe mb-6">
-              Our Story
+              Istorija
             </p>
             
             <h2 className="font-serif text-4xl md:text-5xl font-light mb-8 text-charcoal">
-              A Love Story
+              Susipažinom
             </h2>
             
             <div className="w-16 h-px bg-gold/50 mb-8 mx-auto md:mx-0" />
             
             <p className="font-serif text-lg md:text-xl leading-relaxed text-foreground/80 mb-6">
-              What began as a chance encounter at a coffee shop has blossomed into a love 
-              that knows no bounds. Through laughter and tears, adventures near and far, 
-              we have found in each other a partner for life.
+              Tai, kas prasidėjo kaip susitikimas prie puodelio kavos netoli Kauno pilies, išaugo į meilę, kuri neturi ribų.
+              Per juoką ir ašaras, artimus ir tolimus nuotykius, vienas kitame atradome žmogų, su kuriuo norime eiti per gyvenimą kartu.
             </p>
             
             <p className="font-serif text-lg md:text-xl leading-relaxed text-foreground/80">
-              Now, we invite you to join us as we celebrate the next chapter of our journey — 
-              surrounded by the people who have shaped our lives and witnessed our love grow.
+              Dabar kviečiame jus prisijungti prie mūsų ir kartu atšvęsti kitą mūsų kelionės etapą — apsupty žmonių,
+              kurie formavo mūsų gyvenimus ir buvo liudininkai, kaip augo mūsų meilė.
             </p>
           </div>
         </div>

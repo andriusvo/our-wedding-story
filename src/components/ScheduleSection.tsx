@@ -23,29 +23,39 @@ const ScheduleSection = () => {
 
   const schedule = [
     {
-      time: "3:30 PM",
-      event: "Guest Arrival",
-      description: "Welcome drinks and mingling in the garden",
+      time: "12:00",
+      event: "Svečių atvykimas",
+      description: "Apsikabinimai, juokas, small talk ir pirmieji vibe’ai.",
     },
     {
-      time: "4:00 PM",
-      event: "Ceremony",
-      description: "Exchange of vows in the vineyard gazebo",
+      time: "13:00",
+      event: "Ceremonija",
+      description: "Trumpai, gražiai ir su wow efektu",
     },
     {
-      time: "5:00 PM",
-      event: "Cocktail Hour",
-      description: "Hors d'oeuvres and refreshments on the terrace",
+      time: "14:00",
+      event: "Sveikinimai",
+      description: "Tostai, apkabinimai ir emocijos per kraštus.",
     },
     {
-      time: "6:30 PM",
-      event: "Dinner Reception",
-      description: "A celebration with dinner, toasts, and cake",
+      time: "15:00",
+      event: "Pietūs",
+      description: "Valgom, atsigeriam ir kraunam energiją vakarui.",
     },
     {
-      time: "8:30 PM",
-      event: "Dancing & Celebration",
-      description: "Music, dancing, and merriment under the stars",
+      time: "16:00",
+      event: "Muzika",
+      description: "Garsiau ir drąsiau",
+    },
+    {
+      time: "18:00",
+      event: "Kokteiliai",
+      description: "Plakam ir ragaujam",
+    },
+    {
+      time: "20:00",
+      event: "Pabaiga",
+      description: "Paskutiniai tostai ir visi kartu keliaujam namo",
     },
   ];
 
@@ -58,11 +68,11 @@ const ScheduleSection = () => {
       <div className="container mx-auto max-w-3xl">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p className="font-sans text-xs tracking-[0.3em] uppercase text-muted-foreground mb-6">
-            Wedding Day
+            Vestuvių diena
           </p>
           
           <h2 className="font-serif text-4xl md:text-5xl font-light">
-            The Schedule
+            Dienos planas
           </h2>
         </div>
 

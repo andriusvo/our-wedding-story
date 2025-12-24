@@ -26,21 +26,18 @@ const DetailsSection = () => {
   const details = [
     {
       icon: Calendar,
-      title: "The Date",
-      info: "Sunday, June 15, 2025",
-      description: "Please mark your calendars",
+      title: "Data",
+      info: "Rugpjūčio 7, 2026",
     },
     {
       icon: Clock,
-      title: "The Time",
-      info: "Ceremony begins at 4:00 PM",
-      description: "Reception to follow",
+      title: "Laikas",
+      info: "Ceremonijos pradžia 13 val.",
     },
     {
       icon: MapPin,
-      title: "The Venue",
-      info: "The Grand Estate",
-      description: "1234 Vineyard Lane, Napa Valley, CA 94558",
+      title: "Vieta",
+      info: "Bokšto skveras, Vilnius",
     },
   ];
 
@@ -62,12 +59,12 @@ const DetailsSection = () => {
 
       <div className="container mx-auto max-w-5xl relative z-10">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <p className="font-sans text-xs tracking-[0.3em] uppercase text-taupe mb-6">
-            Wedding Details
+          <p className="font-sans text-xs tracking-[0.3em] uppercase text-charcoal mb-6">
+            Detalės
           </p>
           
           <h2 className="font-serif text-4xl md:text-5xl font-light text-charcoal">
-            Join Us
+            Kviečiame
           </h2>
         </div>
 
@@ -90,10 +87,6 @@ const DetailsSection = () => {
               
               <p className="font-sans text-sm tracking-wide text-charcoal mb-2">
                 {detail.info}
-              </p>
-              
-              <p className="font-sans text-xs tracking-wide text-taupe">
-                {detail.description}
               </p>
             </div>
           ))}
