@@ -25,32 +25,32 @@ const ScheduleSection = () => {
     {
       time: "12:00",
       event: "Svečių atvykimas",
-      description: "Apsikabinimai, juokas, small talk ir pirmieji vibe’ai.",
+      description: "Pirmieji apsikabinimai, juokas, lengvi pokalbiai ir šventinės nuotaikos pajautimas.",
     },
     {
       time: "13:00",
       event: "Ceremonija",
-      description: "Trumpai, gražiai ir su wow efektu",
+      description: "Prasminga akimirka, kurioje netrūks šypsenų ir jaudulio.",
     },
     {
       time: "14:00",
       event: "Sveikinimai",
-      description: "Tostai, apkabinimai ir emocijos per kraštus.",
+      description: "Šilti linkėjimai ir emocijos, kurios lieka ilgam.",
     },
     {
       time: "15:00",
       event: "Pietūs",
-      description: "Valgom, atsigeriam ir kraunam energiją vakarui.",
+      description: "Skanaus maisto pertrauka, atsigaivinam ir pasikraunam energijos.",
     },
     {
       time: "16:00",
-      event: "Muzikinis workshopas",
-      description: "Garsiau ir drąsiau",
+      event: "Muzikinė sesija",
+      description: "Išlaisvinam balsus, judesį ir gerą nuotaiką.",
     },
     {
       time: "20:00",
       event: "Pabaiga",
-      description: "Paskutiniai tostai ir visi kartu keliaujam namo",
+      description: "Paskutiniai tostai, šypsenos ir visi kartu keliaujame namo.",
     },
   ];
 
